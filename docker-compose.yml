@@ -1,0 +1,54 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: mtm-qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    environment:
+      - QDRANT__SERVICE__GRPC_PORT=6334
+    networks:
+      - mtm-network
+
+  backend:
+    build: ./backend
+    container_name: mtm-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - COLLECTION_NAME=medya_takip
+    depends_on:
+      - qdrant
+    volumes:
+      - ./backend:/app
+      - model_cache:/root/.cache
+    networks:
+      - mtm-network
+
+  frontend:
+    image: nginx:alpine
+    container_name: mtm-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+    networks:
+      - mtm-network
+
+volumes:
+  qdrant_data:
+  model_cache:
+
+networks:
+  mtm-network:
+    driver: bridge

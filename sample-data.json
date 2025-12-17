@@ -1,0 +1,68 @@
+{
+  "documents": [
+    {
+      "title": "Türkiye Ekonomisi 2024 Büyüme Raporu",
+      "content": "Türkiye ekonomisi 2024 yılının ilk çeyreğinde yüzde 4.5 oranında büyüme kaydetti. Sanayi sektörü ve ihracat bu büyümenin temel itici güçleri oldu. Merkez Bankası enflasyonla mücadele kapsamında faiz oranlarını revize etti.",
+      "source": "https://ekonomi.gov.tr/rapor-2024",
+      "source_type": "rapor",
+      "category": "ekonomi",
+      "tags": ["büyüme", "ekonomi", "2024", "sanayi"]
+    },
+    {
+      "title": "Yapay Zeka Sektöründe Yeni Gelişmeler",
+      "content": "Türk teknoloji şirketleri yapay zeka alanında önemli yatırımlar yapıyor. Yerli dil modelleri ve görüntü işleme teknolojileri üzerinde çalışmalar devam ediyor. Startuplar uluslararası pazarlara açılıyor.",
+      "source": "https://teknoloji-haber.com/yapay-zeka",
+      "source_type": "haber",
+      "category": "teknoloji",
+      "tags": ["yapay zeka", "teknoloji", "startup", "yatırım"]
+    },
+    {
+      "title": "Sağlık Sektöründe Dijital Dönüşüm",
+      "content": "Hastaneler dijital sağlık uygulamalarını yaygınlaştırıyor. Telemedicine ve uzaktan hasta takip sistemleri pandemi sonrasında kalıcı hale geldi. E-nabız sistemi aktif kullanıcı sayısını artırdı.",
+      "source": "https://saglik.gov.tr/dijital-donusum",
+      "source_type": "makale",
+      "category": "sağlık",
+      "tags": ["sağlık", "dijital", "telemedicine", "e-nabız"]
+    },
+    {
+      "title": "Otomotiv Sektörü İhracat Rekoru",
+      "content": "Türk otomotiv sektörü 2024 yılında ihracat rekoru kırdı. Elektrikli araç üretimi hız kazandı. TOGG, Avrupa pazarına giriş için hazırlıklarını tamamladı. Yan sanayi de büyümeden payını aldı.",
+      "source": "https://otomotiv-dergi.com/ihracat-raporu",
+      "source_type": "rapor",
+      "category": "otomotiv",
+      "tags": ["otomotiv", "ihracat", "TOGG", "elektrikli araç"]
+    },
+    {
+      "title": "Turizm Sezonu Başarılı Geçti",
+      "content": "Türkiye 2024 turizm sezonunda 50 milyon turist hedefine ulaştı. Antalya, İstanbul ve Muğla en çok ziyaret edilen destinasyonlar oldu. Sağlık turizmi de önemli bir gelir kaynağı haline geldi.",
+      "source": "https://turizm-bakanligi.gov.tr/sezon-raporu",
+      "source_type": "rapor",
+      "category": "turizm",
+      "tags": ["turizm", "turist", "Antalya", "İstanbul"]
+    },
+    {
+      "title": "Enerji Yatırımlarında Yenilenebilir Kaynak Odağı",
+      "content": "Türkiye yenilenebilir enerji yatırımlarını artırıyor. Güneş ve rüzgar enerjisi santralleri toplam kurulu gücün yüzde 40'ına ulaştı. Hidrojen enerjisi projeleri de gündemde.",
+      "source": "https://enerji-portali.com/yenilenebilir",
+      "source_type": "haber",
+      "category": "enerji",
+      "tags": ["enerji", "yenilenebilir", "güneş", "rüzgar"]
+    },
+    {
+      "title": "Fintech Sektörü Hızla Büyüyor",
+      "content": "Türkiye'deki fintech girişimleri yatırım almaya devam ediyor. Dijital ödeme sistemleri ve kripto para platformları yaygınlaşıyor. Açık bankacılık uygulamaları kullanıcı sayısını artırıyor.",
+      "source": "https://finans-haber.com/fintech-rapor",
+      "source_type": "makale",
+      "category": "finans",
+      "tags": ["fintech", "dijital ödeme", "kripto", "bankacılık"]
+    },
+    {
+      "title": "Eğitimde Yapay Zeka Uygulamaları",
+      "content": "Okullar yapay zeka destekli eğitim araçlarını kullanmaya başladı. Kişiselleştirilmiş öğrenme sistemleri öğrenci başarısını artırıyor. MEB, dijital içerik platformunu güncelledi.",
+      "source": "https://egitim.gov.tr/yapay-zeka-egitim",
+      "source_type": "haber",
+      "category": "eğitim",
+      "tags": ["eğitim", "yapay zeka", "MEB", "dijital içerik"]
+    }
+  ]
+}
